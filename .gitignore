@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+*.env
+*.conda
+*.egg-info/
+
+# VSCode
+.vscode/
+.settings/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python environments (Anaconda)
+conda-meta/
+*.lock
+*.sqlite
+*.yml
+
+# Output files
+*.out
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Data
+data/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.hdf5
+
+# Secret files
+secrets.*
+token.*
+*.key
+*.pem
+
+# Model artifacts
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.bin
+runs/
+wandb/
+
+# Hugging Face cache
+~/.cache/huggingface/
